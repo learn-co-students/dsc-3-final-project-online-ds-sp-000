@@ -1,13 +1,13 @@
 
-# Module 3 Project Guidelines
+# Module 3 Final Project
 
 
-# Introduction
+## Introduction
 
 In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
 
 
-# Objectives
+## Objectives
 
 * Understand all required aspects of the Final Project for Module 3
 * Understand all required deliverables
@@ -33,11 +33,11 @@ We encourage you to be very thoughful when identifying your problem and selectin
 To help you select an appropriate data set for this project, we've set some guidelines:
 
 1. Your dataset should work for classification. The classification task can be either binary or multi-categorical, as long as it's a classification model.   
-<br>    
+
 2. Your dataset needs to be of sufficient complexity. Try to avoid picking an overly simple dataset. We want to see all the steps of the Data Science Process in this project--it's okay if the dataset is mostly clean, but we expect to see some preprocessing and exploration. See the following section, **_Data Set Constraints_**, for more information on this.   
-<br>  
+
 3. On the other end of the spectrum, don't pick a problem that's too complex, either. Stick to problems that you have a clear idea of how you can use machine learning to solve it. For now, we recommend you stay away from overly complex problems in the domains of Natural Language Processing or Computer Vision--although those domains make use of Supervised Learning, they come with a lot of other special requirements and techniques that you don't know yet (but you'll learn soon!). If you're chosen problem feels like you've overscoped, then it probably is. If you aren't sure if your problem scope is appropriate, double check with your instructor!  
-<br>  
+
 4. **_Serious Bonus Points_** if some or all of the data is data you have to source yourself through web scraping or interacting with a 3rd party API! Having projects that show off your ability to source data effectively make you look that much more impressive when showing your work off to potential employers!
 
 ### Data Set Constraints
@@ -45,11 +45,8 @@ To help you select an appropriate data set for this project, we've set some guid
 When selecting a data set, be sure to take into the consideration the following constraints:
 
 1. Your data set can't be one we've already worked with in any labs. 
-<br>  
-2. Your data set should contain a minimum of 1000 rows.  
-<br>  
+2. Your data set should contain a minimum of 1000 rows.    
 3. Your data set should contain a minimum of 10 predictor columns, before any one-hot encoding is performed.   
-<br>    
 4. Your instructor must provide final approval on your data set. 
 
 ### Problem First, or Data First?
@@ -74,9 +71,9 @@ There are plenty of amazing places that you can get your data from. We recommend
 Your completed should contain the following deliverables:
 
 1. A **_Jupyter Notebook_** containing any code you've written for this project.  
-<br>  
+
 2. A **_Blog Post_** explaining your problem/dataset, along with your process, methodology, and findings.  
-<br>  
+
 3. An **_"Executive Summary" PowerPoint Presentation_** that gives a brief overview of your problem/dataset, and each step of the OSEMN process. 
 
 
@@ -88,11 +85,8 @@ For this project, your jupyter notebook should meet the following specifications
 **_Organization/Code Cleanliness_**
 
 * The notebook should be well organized, easy to follow, and code is commented where appropriate.  
-<br>  
     * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
-<br>      
 * The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
-<br>    
 
 **_Process, Methodology, and Findings_**
 
