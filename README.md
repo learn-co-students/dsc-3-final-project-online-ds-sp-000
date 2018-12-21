@@ -1,101 +1,111 @@
 
-# Module X Final Project
+# Module 3 Project Guidelines
 
 
-## Introduction
+# Introduction
 
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module X. 
+In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
 
-## Objectives
-You will be able to:
-* Describe all required aspects of the final project for Module X
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
+
+# Objectives
+
+* Understand all required aspects of the Final Project for Module 3
+* Understand all required deliverables
+* Understand what constitutes a successful project
 
 ## Final Project Summary
 
-You've made it all the way through another  module of this course - congratulations!
+Congratulations! You've made it through another _intense_ module, and now you're ready to show off your newfound Machine Learning skills!
+
+<img src='smart.gif'>
+
+All that remains for Module 3 is to complete the final project!
+
+## The Project
+
+For this project, you're going to select a dataset of your choosing and create a classification model. You'll start by indentifying a problem you can solve with classification, and then identify a dataset. You'll then use everything you've learned about Data Science and Machine Learning thus far to source a dataset, preprocess and explore it, and then build and interpret a classification model that answers your chosen question. 
 
 
-## The Dataset
+### Selecting a Data Set
+
+We encourage you to be very thoughful when identifying your problem and selecting your data set--an overscoped project goal or a poor data set can quickly bring an otherwise promising project to a grinding halt. 
+
+To help you select an appropriate data set for this project, we've set some guidelines:
+
+1. Your dataset should work for classification. The classification task can be either binary or multi-categorical, as long as it's a classification model.   
+<br>    
+2. Your dataset needs to be of sufficient complexity. Try to avoid picking an overly simple dataset. We want to see all the steps of the Data Science Process in this project--it's okay if the dataset is mostly clean, but we expect to see some preprocessing and exploration. See the following section, **_Data Set Constraints_**, for more information on this.   
+<br>  
+3. On the other end of the spectrum, don't pick a problem that's too complex, either. Stick to problems that you have a clear idea of how you can use machine learning to solve it. For now, we recommend you stay away from overly complex problems in the domains of Natural Language Processing or Computer Vision--although those domains make use of Supervised Learning, they come with a lot of other special requirements and techniques that you don't know yet (but you'll learn soon!). If you're chosen problem feels like you've overscoped, then it probably is. If you aren't sure if your problem scope is appropriate, double check with your instructor!  
+<br>  
+4. **_Serious Bonus Points_** if some or all of the data is data you have to source yourself through web scraping or interacting with a 3rd party API! Having projects that show off your ability to source data effectively make you look that much more impressive when showing your work off to potential employers!
+
+### Data Set Constraints
+
+When selecting a data set, be sure to take into the consideration the following constraints:
+
+1. Your data set can't be one we've already worked with in any labs. 
+<br>  
+2. Your data set should contain a minimum of 1000 rows.  
+<br>  
+3. Your data set should contain a minimum of 10 predictor columns, before any one-hot encoding is performed.   
+<br>    
+4. Your instructor must provide final approval on your data set. 
+
+### Problem First, or Data First?
+
+There are two ways that you can about getting started: **_Problem-First_** or **_Data-First_**. 
+
+**_Problem-First_**: Start with a problem that you want to solve with classification, and then try to find the data you need to solve it.  If you can't find any data to solve your problem, then you should pick another problem. 
+
+**_Data-First_**: Take a look at some of the most popular internet respositories of cool data sets we've listed below. If yuou find a data set that's particularly interesting for you, then it's totally okay to build your problem around that data set. 
+
+There are plenty of amazing places that you can get your data from. We recommend you start looking at data sets in some of these resources first:
+
+* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.html)
+* [Kaggle Datasets](https://www.kaggle.com/datasets)
+* [Awesome Datasets Repo on Github](https://github.com/awesomedata/awesome-public-datasets)
+* [New York City Open Data Portal](https://opendata.cityofnewyork.us/)
+* [Inside AirBNB ](http://insideairbnb.com/)
 
 
 ## The Deliverables
 
+Your completed should contain the following deliverables:
 
-
-## The Process
-
-### 1. Getting Started
-
-Please start by reviewing this document. If you have any questions, please ask them in slack ASAP so (a) we can answer the questions and (b) so we can update this repository to make it clearer.
-
-Once you're done with the rest of the module, please start on the project. Do that by forking this repository, cloning it locally, and working in the student.ipynb file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
-
-### 2. The Project Review
-
-> **When you start on the project, please also reach out to an instructor immediately to schedule your project review** (if you're not sure who to schedule with, please ask in slack!)
-
-#### What to expect from the Project Review
-
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation *(sometimes technical interviews will feel arbitrary or unfair - if you want to get the job, commentiing on that is seldom a good choice)*.
-
-The project review is comprised of a 45 minute 1:1 session with one of the instructors. During your project review, be prepared to:
-
-#### 1. Deliver your PDF presentation to a non-technical stakeholder. 
-In this phase of the review (~10 mins) your instructor will play the part of a non-technical stakeholder that you are presenting your findings to. The presentation should not exceed 5 minutes, giving the "stakeholder" 5 minutes to ask questions.
-
-In the first half of the presentation (2-3 mins), you should summarize your methodology in a way that will be comprehensible to someone with no background in data science and that will increase their confidence in you and your findings. In the second half (the remaining 2-3 mins) you should summarize your findings and be ready to answer a couple of non-technical questions from the audience. The questions might relate to technical topics (sampling bias, confidence, etc) but will be asked in a non-technical way and need to be answered in a way that does not assume a background in statistics or machine learning. You can assume a smart, business stakeholder, with a non-quantitative college degree.
-
-#### 2. Go through the Jupyter Notebook, answering questions about how you made certain decisions. Be ready to explain things like:
-    * "how did you pick the question(s) that you did?"
-    * "why are these questions important from a business perspective?"
-    * "how did you decide on the data cleaning options you performed?"
-    * "why did you choose a given method or library?"
-    * "why did you select those visualizations and what did you learn from each of them?"
-    * "why did you pick those features as predictors?"
-    * "how would you interpret the results?"
-    * "how confident are you in the predictive quality of the results?"
-    * "what are some of the things that could cause the results to be wrong?"
-
-Think of the second phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
-
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
-
-What won't happen:
-* You won't be yelled at, belittled, or scolded
-* You won't be put on the spot without support
-* There's nothing you can do to instantly fail or blow it
-
-**Please note: We need to receive the URL of your repository at least 24 hours before your review so we can look at your materials in advance.** 
-
-
-## Requirements
-
-This section outlines the rubric we'll use to evaluate your project.
-
-### 1. Technical Report Must-Haves
+1. A **_Jupyter Notebook_** containing any code you've written for this project.  
+<br>  
+2. A **_Blog Post_** explaining your problem/dataset, along with your process, methodology, and findings.  
+<br>  
+3. An **_"Executive Summary" PowerPoint Presentation_** that gives a brief overview of your problem/dataset, and each step of the OSEMN process. 
 
 
 
-### 2. Non-Technical Presentation Must-Haves
+### Jupyter Notebook Must-Haves
+
+For this project, your jupyter notebook should meet the following specifications:
+
+**_Organization/Code Cleanliness_**
+
+* The notebook should be well organized, easy to follow, and code is commented where appropriate.  
+<br>  
+    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
+<br>      
+* The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
+<br>    
+
+**_Process, Methodology, and Findings_**
+
+* Your notebook should contain a clear record of your process and methodology for exploring and preprocessing your data, building and tuning a model, and interpreting your results. 
+* We recommend you use the OSEMN process to help organize your thoughts and stay on track. 
 
 
+### Blog Post Must-Haves
 
-### 3. Blog Post
+Your blog post should clearly explain your process and results, including:
+*  An explanation of the problem you're trying to solve and the dataset you choose for it
+* Well documented examples of code and visualizations (when appropriate)
 
-Please also write a blog post about one element of the project - it could be the EDA, the feature selection, the choice of visualizations or anything else technical relating to the project. It should be between 800-1500 words and should be targeted at your peers - aspiring data scientists.
 
-
-## Summary
-
-The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
-
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
-
-We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
+**_NOTE:_**  This blog post is your way of showcasing the work you've done on this project--chances are it will soon be read by a recruiter or hiring manager! Take the time to make sure that you craft your story well, and clearly explain your process and findings in a way that clearly shows both your technical expertise **_and_** your ability to communicate your results!
 
