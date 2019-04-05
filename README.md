@@ -17,7 +17,7 @@ In this lesson, we'll review all the guidelines and specifications for the final
 
 Congratulations! You've made it through another _intense_ module, and now you're ready to show off your newfound Machine Learning skills!
 
-<img src='smart.gif'>
+<img src='https://raw.githubusercontent.com/learn-co-curriculum/dsc-3-final-project/master/smart.gif'>
 
 All that remains for Module 3 is to complete the final project!
 
